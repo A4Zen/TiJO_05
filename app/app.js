@@ -12,6 +12,9 @@
                 this.credentials.username = username;
                 this.credentials.password = password;
             };
+            this.logout = function () {
+                this.credentials = {};
+            };
         }
     }
 })();
