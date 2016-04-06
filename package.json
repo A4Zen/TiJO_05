@@ -9,14 +9,15 @@
     "grunt-contrib-jshint": "0.11.2",
     "grunt-karma": "0.10.1",
     "jasmine": "2.4.1",
-    "jasmine-core": "2.4.1",
+    "jasmine-core": "^2.4.1",
     "jasmine-reporters": "2.0.7",
     "karma": "0.12.16",
-    "karma-coverage": "0.3.1",
-    "karma-jasmine": "0.3.8",
-    "karma-junit-reporter": "0.2.2",
-    "karma-phantomjs-launcher": "0.1.4",
-    "karma-spec-reporter": "0.0.13"
+    "karma-coverage": "^0.5.5",
+    "karma-jasmine": "^0.3.8",
+    "karma-junit-reporter": "^0.4.1",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-spec-reporter": "0.0.24",
+    "phantomjs-prebuilt": "^2.1.6"
   },
   "scripts": {
     "test": "grunt verify --force"
